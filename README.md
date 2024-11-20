@@ -26,5 +26,5 @@ The objective of this network penetration testing lab is to simulate real-world 
   Fig2: The scan is complete and the result is listed.
   ![Capture](https://github.com/user-attachments/assets/f6b740bf-eb7a-4bfd-835d-68c22d51f79f)
 
-  <a href="google.com">Download the scan result</a>
+  <a href="https://www.google.com">Download the scan result</a>
 
