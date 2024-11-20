@@ -20,5 +20,5 @@ The objective of this network penetration testing lab is to simulate real-world 
 
 
   # Steps
-  Fig1:The screenshot below shows Nmap used to scan the whole network to discover devices, systems...
+  Fig1:The screenshot below demonstrates the use of Nmap to scan the entire network, identifying devices, systems, and other connected components.
   ![Capture](https://github.com/user-attachments/assets/bb0b819e-fba2-4864-a9f7-7b441d6ee33a)
