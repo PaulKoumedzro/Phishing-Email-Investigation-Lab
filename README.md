@@ -32,11 +32,15 @@ The objective of this network penetration testing lab is to simulate real-world 
   Fig4: Using mimikatz, we were able perform Active Directory persistence through credential.
   ![2](https://github.com/user-attachments/assets/2dbdb630-2039-4050-b9fc-500616a68ac8)
 
-  Fig5: As poof of concept, we able to get
+  Fig5: As poof of concept, we able to get user account hash and crack it.
+  ![3](https://github.com/user-attachments/assets/e895a387-0b1d-4e6a-99cd-f5360331e7c9)
 
   
 
 # Network scan result
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
-  
+
+# Read the vulnerability Report
+  <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
+
 
