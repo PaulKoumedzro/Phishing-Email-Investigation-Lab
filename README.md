@@ -1,7 +1,7 @@
 # Network-Penetration-Testing-Lab
 
 # Objective
-The objective of this network penetration testing lab is to simulate real-world cyber threats by evaluating the security posture of a networked environment. The lab aims to identify vulnerabilities in systems, applications, and configurations, assess their potential exploitability, and mitigating security flaws within network infrastructures. The purpose of the testing is to identify and document weaknesses in network devices, firewalls, servers and applications that could be exploited by malicious actors; improve defensive strategies by recommending mitigation techniques and security ehancements.
+The objective of this network penetration testing lab is to simulate real-world cyber threats by evaluating the security posture of a networked environment. The lab aims to identify vulnerabilities in systems, applications, and configurations, assess their potential exploitability, and mitigating security flaws within network infrastructures. The purpose of the testing is to identify and document weaknesses in network devices, servers and applications that could be exploited by malicious actors; improve defensive strategies by recommending mitigation techniques and security ehancements. This project will use Active Directory, Linux, Windows 10, and Metasploitable as the company infrastructure.
 
 
 # Skills Learned
@@ -17,6 +17,7 @@ The objective of this network penetration testing lab is to simulate real-world 
 - Metasploitable
 - Windows 10
 - Active Directory 2022
+- Vmware
 
 
   # Steps
@@ -40,7 +41,7 @@ The objective of this network penetration testing lab is to simulate real-world 
 # Network scan result
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
 
-# Read the vulnerability Report
+# Read the Project vulnerabilities Report
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
 
 
