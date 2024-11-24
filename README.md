@@ -41,7 +41,3 @@ The objective of this network penetration testing lab is to simulate real-world 
 # Network scan result
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
 
-# Read the Project vulnerabilities Report
-  <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
-
-
