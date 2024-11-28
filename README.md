@@ -19,6 +19,7 @@ The objective of this network penetration testing lab is to simulate real-world 
 - Active Directory 2022
 - Vmware
 
+I have found and exploited vulnerability in the Active Directory used in the network. Below are steps I took from discovery to exploitaion.
 
   # Steps
   Fig1:The screenshot below demonstrates the enumeration and scanning phase using Nmap to scan the entire network, identifying devices, systems, and other connected components.
@@ -41,3 +42,10 @@ The objective of this network penetration testing lab is to simulate real-world 
 # Network scan result
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
 
+# Recommandation.
+Implement  Multifactor Authentication mechanism 
+Disabled Powershell and cmd on systems
+Setup real-time alert
+Enforce strong password policies 
+Use separate administrative accounts for domain admins and standard user accounts.
+Restrict GPO delegation to prevent unauthorized changes.
