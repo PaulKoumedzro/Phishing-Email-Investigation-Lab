@@ -43,9 +43,9 @@ I have found and exploited vulnerability in the Active Directory used in the net
   <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
 
 # Recommandation.
-Implement  Multifactor Authentication mechanism 
-Disabled Powershell and cmd on systems
-Setup real-time alert
-Enforce strong password policies 
-Use separate administrative accounts for domain admins and standard user accounts.
+Implement  Multifactor Authentication mechanism </br>
+Disabled Powershell and cmd on systems </br>
+Setup real-time alert </br>
+Enforce strong password policies  </br>
+Use separate administrative accounts for domain admins and standard user accounts.</br>
 Restrict GPO delegation to prevent unauthorized changes.
