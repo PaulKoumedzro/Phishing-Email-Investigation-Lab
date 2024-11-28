@@ -1,14 +1,15 @@
-# Network-Penetration-Testing-Lab
+# Active Directory Security Assessment-Lab
 
 # Objective
-The objective of this network penetration testing lab is to simulate real-world cyber threats by evaluating the security posture of a networked environment. The lab aims to identify vulnerabilities in systems, applications, and configurations, assess their potential exploitability, and mitigating security flaws within network infrastructures. The purpose of the testing is to identify and document weaknesses in network devices, servers and applications that could be exploited by malicious actors; improve defensive strategies by recommending mitigation techniques and security ehancements. This project will use Active Directory, Linux, Windows 10, and Metasploitable as the company infrastructure.
-
+The objective of this lab is to simulate real-world cyber threats by evaluating the security posture of an Active Directory a network environment. The lab aims to identify vulnerabilities in systems, applications, and configurations in the AD, assess their potential exploitability, and mitigating security flaws . The purpose of the testing is to identify and document weaknesses in Active Directory that could be exploited by malicious actors; improve defensive strategies by recommending mitigation techniques and security ehancements.
 
 # Skills Learned
-- Network scanning using Nmap.
-- Identifying and exploiting vulnerabilities in network devices, applications and services.
-- Vulnerability assessment
-- Applying security best practices to harden network against common attack vectors
+- Enumerate and map the AD environment, including domains, forests, and trust relationships.
+- Identify key components such as Domain Controllers, organizational units (OUs), and group policies.
+- Analyze password policies, Kerberos configurations, and credential storage.
+- Simulate attacks like Pass-the-Hash, Kerberoasting, and credential spraying.
+- Discover and exploit misconfigured permissions, service accounts, and group memberships to escalate privileges.
+- Identify misconfigurations in Group Policy Objects (GPOs) that may allow privilege escalation or data leaka
 
 
 # Tool Used
