@@ -33,22 +33,14 @@ I have found and exploited vulnerability in the Active Directory used in the net
   Fig3: Examining the email security configuration, the Authentication-Results show that DKIM is set to NONE, DMARC is set to NONE, and SPF is set to Softfail. Additionally, the message is not signed, indicating a failure in the email security configuration. The sender’s IP address is 183.56.179.169, and the header indicates that the email was sent from the domain name sasktel.com.
  ![3](https://github.com/user-attachments/assets/6f51adbc-4213-40bb-9cff-58adbb974d9e)
 
+  Fig4: The screenshot below reveals that the nearest email server to the sender is mail.yobow.cn, which will be the subject of further OSINT investigation.
+  <img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/0be7c587-b649-46dd-9633-fea3edd5859c" />
 
-  Fig4: Using mimikatz, we were able perform Active Directory persistence through credential.
-  ![2](https://github.com/user-attachments/assets/2dbdb630-2039-4050-b9fc-500616a68ac8)
+  Fig5: As shown in the screenshot below, the Reply-To email agentcynthiajamescontact01@gmail.com and the "From" email p.chambers@sasktel.com addresses differ; an unusual discrepancy that raises significant security concerns.
+![4](https://github.com/user-attachments/assets/16a52899-57dd-4b72-8ad6-0d4d4dcdc5bc)
 
-  Fig5: As poof of concept, we able to get user account hash and crack it.
-  ![3](https://github.com/user-attachments/assets/e895a387-0b1d-4e6a-99cd-f5360331e7c9)
 
+# In the following steps, we'll perform OSINT on our findings as proof of concept , investigate further determine the nature  and content of the email.
   
-
-# Network scan result
-  <a href="https://tinyurl.com/Network-Scan-result">Download the scan result</a>
-
+Fig6: Let's perform OSINT on the mail server mail.yobow.cn
 # Recommandation.
-Implement  Multifactor Authentication mechanism </br>
-Disabled Powershell and cmd on systems </br>
-Setup real-time alert </br>
-Enforce strong password policies  </br>
-Use separate administrative accounts for domain admins and standard user accounts.</br>
-Restrict GPO delegation to prevent unauthorized changes.
