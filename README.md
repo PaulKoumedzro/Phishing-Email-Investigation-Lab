@@ -41,6 +41,9 @@ I have found and exploited vulnerability in the Active Directory used in the net
 
 
 # In the following steps, we'll perform OSINT on our findings as proof of concept , investigate further determine the nature  and content of the email.
-  
+
+  Fig6: We will conduct OSINT (Open Source Intelligence) on the IP address 183.56.179.169, which was identified in the email. Refer to Figure 3 for visual context. As shown in the screenshot, the IP originates from China, specifically the Guangdong Province Network, and is associated with the ISP China Telecom (domain: chinatelcom.cn). This IP address has been reported 10 times, primarily flagged for email spam and is linked to malicious activity.
+  ![5](https://github.com/user-attachments/assets/0e1f076b-70fb-47db-984a-5baa860a4db0)
+
 Fig6: Let's perform OSINT on the mail server mail.yobow.cn
 # Recommandation.
