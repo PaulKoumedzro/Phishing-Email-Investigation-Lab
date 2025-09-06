@@ -45,5 +45,13 @@ I have found and exploited vulnerability in the Active Directory used in the net
   Fig6: We will conduct OSINT (Open Source Intelligence) on the IP address 183.56.179.169, which was identified in the email. Refer to Figure 3 for visual context. As shown in the screenshot, the IP originates from China, specifically the Guangdong Province Network, and is associated with the ISP China Telecom (domain: chinatelcom.cn). This IP address has been reported 10 times, primarily flagged for email spam and is linked to malicious activity.
   ![5](https://github.com/user-attachments/assets/0e1f076b-70fb-47db-984a-5baa860a4db0)
 
-Fig6: Let's perform OSINT on the mail server mail.yobow.cn
-# Recommandation.
+Fig7-a: The screenshot below reveal that the Content-type of this email will be render as a webpage or html. follow by the body of the email.
+![6](https://github.com/user-attachments/assets/33d66d88-5628-458e-bd3a-1cc7ece9ba91)
+
+Fig7-b![7](https://github.com/user-attachments/assets/a882368c-f19e-491c-859f-0e4a2a4ff10e)
+
+Fig8: The HTML version of the email body (see Figure 7-b) was converted into plain text for further analysis.
+![8](https://github.com/user-attachments/assets/25d6a564-7b4a-4d8b-bd38-8894e0944c67)
+
+Fig9: Complete email analysis with Sublime-Security flag the email as Malicious Business Email Compromise.
+![9](https://github.com/user-attachments/assets/1b0db9dc-7f1a-4b1c-9bbf-12d54c6e5042)
