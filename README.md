@@ -1,24 +1,25 @@
 # Phishing Email Investigation Lab
 
 # Objective
-The objective of this lab is to simulate real-world cyber threats by evaluating the security posture of an Active Directory a network environment. The lab aims to identify vulnerabilities in systems, applications, and configurations in the AD, assess their potential exploitability, and mitigating security flaws . The purpose of the testing is to identify and document weaknesses in Active Directory that could be exploited by malicious actors; improve defensive strategies by recommending mitigation techniques and security ehancements.
+The objective of this lab is to simulate a real-world phishing email investigation, focusing on identifying potential threats and assessing their impact. This exercise involves a comprehensive analysis of the email header and body to determine the sender's identity, trace associated IP addresses, and examine mail server pathways. Encoded URLs and suspicious content will be decoded and scrutinized for indicators of compromise. The findings will be documented in a structured investigation report, followed by actionable security recommendations to mitigate future phishing risks.
 
 # Skills Learned
-- Enumerate and map the AD environment, including domains, forests, and trust relationships.
-- Identify key components such as Domain Controllers, organizational units (OUs), and group policies.
-- Analyze password policies, Kerberos configurations, and credential storage.
-- Simulate attacks like Pass-the-Hash, Kerberoasting, and credential spraying.
-- Discover and exploit misconfigured permissions, service accounts, and group memberships to escalate privileges.
-- Identify misconfigurations in Group Policy Objects (GPOs) that may allow privilege escalation or data leaka
+- Extracting and interpreting metadata to identify spoofed sender addresses, return paths, and relay servers.
+- Mapping IP addresses to geographic locations and identifying suspicious routing patterns.
+- Revealing obfuscated or encoded URLs to detect malicious payloads or phishing sites.
+- Identifying embedded threats in attachments or links using sandboxing or static analysis.
+-  Using OSINT and pattern recognition to hypothesize attacker profiles or campaigns.
+-  Connecting disparate indicators (headers, URLs, IPs) to build a coherent threat narrative.
+
 
 
 # Tool Used
-- Nmap an ONSIT tool used for reconnaissance and enumeration
-- https://www.exploit-db.com/ a vulnerability database
-- Metasploitable
-- Windows 10
-- Active Directory 2022
+- Notepad++ text editor
+- AbuseIPdb
+- CyberChef
+- EML-Analyzer
 - Vmware
+- Windows 10
 
 I have found and exploited vulnerability in the Active Directory used in the network. Below are steps I took from discovery to exploitaion.
 
@@ -55,3 +56,29 @@ Fig8: The HTML version of the email body (see Figure 7-b) was converted into pla
 
 Fig9: Complete email analysis with Sublime-Security flag the email as Malicious Business Email Compromise.
 ![9](https://github.com/user-attachments/assets/1b0db9dc-7f1a-4b1c-9bbf-12d54c6e5042)
+
+
+# Phishing Email Investigation Report
+
+Date of Incident: December 6, 2023<br>
+Time of Receipt: 20:59:57 CST (+0800)<br>
+Sender Email Address: <br>
+Subject Line: Attention Dear Beneficiary<br>
+Phishing Type: Business Email Compromise (BEC)
+
+# Summary of Findings
+A suspicious email was received on December 6, 2023, appearing to originate from . The subject line, Attention Dear Beneficiary, and the body content suggest a Business Email Compromise (BEC) attempt targeting corporate users.
+The email impersonates Lynn Malerba, Treasurer of the United States, and falsely claims the recipient is entitled to $16,000,000 in COVID-19 relief funds. The message urges the recipient to download an attached ID card, which is likely a malicious file intended to gain unauthorized access to the recipient’s system or network.
+
+# Thechnical Analysis
+The authentication failures such as SPF, DKIM, DMARC vailidation all failed. these failures indicate the email was not sent froma trusted or authorized  source and is likely spoofed.  There is a mismatch between the "From" and "Reply-To" fields this inconsistency is a common tactic used in phishing campaigns to redirect replies to an attacker-controlled inbox. The sender IP address has been reported 10 times for malicious activity and is categorized as a known source of email spam.
+
+# Conclusion
+Based on the evidence collected—authentication failures, header anomalies, malicious intent, and sender reputation—the email is conclusively flagged as malicious. The attachment and social engineering tactics used are consistent with initial access techniques employed in phishing and BEC attacks.
+
+# Recommendations
+- User Awareness Training: Educate users on identifying and reporting phishing attempts.
+- Attachment & Link Caution: Instruct users not to click on links or open attachments from unknown senders.
+- Simulated Phishing Exercises: Conduct regular phishing simulations to reinforce detection and response skills.
+
+
