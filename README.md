@@ -36,7 +36,7 @@ The objective of this lab is to simulate a real-world phishing email investigati
   Fig4: The screenshot below reveals that the nearest email server to the sender is mail.yobow.cn, which will be the subject of further OSINT investigation.
   <img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/0be7c587-b649-46dd-9633-fea3edd5859c" />
 
-  Fig5: As shown in the screenshot below, the Reply-To email agentcynthiajamescontact01@gmail.com and the "From" email p.chambers@sasktel.com addresses differ; an unusual discrepancy that raises significant security concerns.
+  Fig5: As shown in the screenshot below, the Reply-To email agentcynthiajamescontact01[@]gmail.com and the "From" email p.chambers[@]sasktel.com addresses differ; an unusual discrepancy that raises significant security concerns.
 ![4](https://github.com/user-attachments/assets/16a52899-57dd-4b72-8ad6-0d4d4dcdc5bc)
 
 
