@@ -21,7 +21,6 @@ The objective of this lab is to simulate a real-world phishing email investigati
 - Vmware
 - Windows 10
 
-I have found and exploited vulnerability in the Active Directory used in the network. Below are steps I took from discovery to exploitaion.
 
   # Steps
   Fig1: The email is opened in Notepad++, and the Email Properties are highlighted.
